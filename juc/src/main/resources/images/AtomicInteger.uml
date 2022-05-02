@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.concurrent.atomic.AtomicInteger</OriginalElement>
+  <nodes>
+    <node x="0.0" y="532.0">java.util.concurrent.atomic.AtomicInteger</node>
+    <node x="49.25" y="102.0">java.lang.Number</node>
+    <node x="170.0" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.concurrent.atomic.AtomicInteger" target="java.lang.Number" relationship="GENERALIZATION">
+      <point x="-152.5" y="-569.5" />
+      <point x="152.5" y="506.0" />
+      <point x="216.25" y="506.0" />
+      <point x="0.0" y="189.0" />
+    </edge>
+    <edge source="java.util.concurrent.atomic.AtomicInteger" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="152.5" y="-569.5" />
+      <point x="457.5" y="506.0" />
+      <point x="393.75" y="506.0" />
+      <point x="393.75" y="76.0" />
+      <point x="305.0" y="76.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+    <edge source="java.lang.Number" target="java.io.Serializable" relationship="REALIZATION">
+      <point x="0.0" y="-189.0" />
+      <point x="216.25" y="76.0" />
+      <point x="305.0" y="76.0" />
+      <point x="0.0" y="25.0" />
+    </edge>
+  </edges>
+  <settings layout="分层" zoom="1.0" showDependencies="true" x="305.0" y="835.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>内部类</Category>
+    <Category>字段</Category>
+    <Category>属性</Category>
+    <Category>方法</Category>
+    <Category>构造函数</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
